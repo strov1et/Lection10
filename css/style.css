@@ -6,6 +6,7 @@ body {
   max-width: 1152px;
   padding: 0 60px;
   margin: 0 auto;
+  height: auto;
 }
 .content {
   display: flex;
@@ -43,7 +44,6 @@ body {
   margin-top: 140px;
   margin-bottom: 140px;
   gap: 115px;
-
 }
 .information {
   display: flex;
@@ -70,17 +70,56 @@ h2 {
   max-width: 243px;
   height: 243px;
 }
-.posts{
-    background-color: #EDF7FA;
-    max-width: 1152px;
-    height: 396px;
-    margin: 0 auto;
+.posts {
+  background-color: #edf7fa;
+  max-width: 1152px;
+  height: auto;
+  margin: 0 auto;
+  border: 5px solid rebeccapurple;
+  align-items: center;
 }
-.section-header{
-    display: flex;
-    gap: 500px;
-}
-.section-title{
-    line-height: 60px;
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 4px solid firebrick;
 }
 
+.section-title {
+  line-height: 60px;
+}
+h3 {
+  color: #21243d;
+  font-size: 26px;
+  line-height: 100%;
+  font-weight: 700;
+  max-width: 367px;
+}
+.view {
+  font-size: 16px;
+  color: #00a8cc;
+}
+h5 {
+  font-size: 18px;
+  color: #21243d;
+  font-weight: 400;
+  line-height: 100%;
+  max-width: 367px;
+}
+.left-content {
+  width: 45%;
+  background-color: #fff;
+  height: 295px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 27px;
+  align-items: center;
+  justify-content: center;
+}
+.cards-para {
+  color: #21243d;
+  font-size: 16px;
+  line-height: 100%;
+  max-width: 348px;
+}
